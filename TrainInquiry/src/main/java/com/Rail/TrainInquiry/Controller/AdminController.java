@@ -166,5 +166,8 @@ public class AdminController
 		return new ResponseEntity<String>(response, HttpStatus.ACCEPTED);
 	}
 	
-	
+	public void f11CreateAUser()
+	{
+		System.out.println("f11");
+	}
 }
